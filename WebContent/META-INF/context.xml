@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/web_student_tracker" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="STUDENT_DB" password="password" 
+               driverClassName="oracle.jdbc.OracleDriver"
+               url="jdbc:oracle:thin:@java-may28.c56jx3cqfoqp.us-east-2.rds.amazonaws.com:1521:ORCL"/>
+
+</Context>

@@ -8,7 +8,7 @@
 	<h1 class="h1">FooBar University</h1>
 	<h4 class="text-muted">learning with zen by channeling stress into cosmic energy</h4>
 	<h3>Add Student</h3>
-	<form action="StudentControllerServlet" method="GET">
+	<form action="StudentControllerServlet" method="POST">
 		<input type="hidden" name="command" value="ADD" />
 		<tr class="form-row">
 			<div class="form-group col-md-6">
